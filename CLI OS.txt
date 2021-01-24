@@ -1,0 +1,24 @@
+String Line //The user write every time 
+if(line.exists (comand , Dist))
+comands:
+ls list the files on dir 
+cp copy file to dir && copy if exists
+cat Cut the file content to another file
+mkdir make direction 
+rmdir remove direction
+mv move file 
+rm remove file
+cd change directory 
+
+// topath --->return the file Path.
+//REPLACE_EXISTING – Performs the copy even when the target file already exists. If the target is a symbolic link, the link itself is copied (and not the target of the link). If the target is a non-empty directory, the copy fails with the FileAlreadyExistsException exception.
+//getProperty(String key) :  java.lang.System.getProperty(String key)  method returns a string containing the value of the property. If the property does not exist, this version of getProperty returns null.
+   This is based on key – value pair as mentioned in the table given below.
+//getAbsoluteFile() The method returns array of files and directories in the directory denoted by this abstract pathname.
+//mkdirs() The method returns true if the directories was created, with all necessary parent directories; else false.
+//mkdir() The method create dir.
+
+
+// string []args-->args[0]=[command]//args[i]=prametars of command.
+
+cp c:/Users/Thesnak/Desktop/text.txt  c:/Users/Thesnak/Java Files
